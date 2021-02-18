@@ -1,10 +1,41 @@
 <style type="text/css">
-body {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+body{
+    max-width: 65%;
+    font-family: 'Meiryo';
+    font-size: 22px;
 }
+
+.sidenav {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 6px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: teal;
+  text-decoration: underline;
+}
+
 </style>
+<div class="sidenav"></div>
+
+
 # 6-7-8 стр.
 
 - 死ぬれども何も言わざりけり。
